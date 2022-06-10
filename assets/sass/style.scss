@@ -1,0 +1,82 @@
+$display: flex;
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.elements {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 600px;
+    padding: 0;
+    margin: 5% 0 5% 0;
+    display: $display;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    width: 400px;
+    padding: 0;
+    margin: 5% 0 5% 0;
+    height: fit-content;
+    display: $display;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    img {
+        width: 250px;
+        height: 240px;
+    }
+    .card__inputs {
+        display: $display;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 60px;
+    }
+    .card__button {
+        margin-bottom: 5%;
+    }
+    .card__price {
+        display: $display;
+        align-items: center;
+        align-content: center;
+        h5{
+            width: 100%;
+        }
+    }
+}
+.input__color {
+    width: auto;
+}
+.eleccion {
+    padding-right: 5%;
+    .eleccion__total {
+        display: $display;
+        align-items: center;
+    }
+    .eleccion__cantidad {
+        display: $display;
+        align-items: center;
+    }
+    .eleccion__color {
+        display: $display;
+        align-items: center;
+        p {
+            border-style: solid;
+            border-color: black;
+            border-width: thin;
+            border-radius: 50%;
+            background-color: white;
+            height: 20px;
+            width: 20px;
+        }
+    }
+
+}

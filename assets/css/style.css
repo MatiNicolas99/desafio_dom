@@ -1,0 +1,83 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.elements {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 600px;
+  padding: 0;
+  margin: 5% 0 5% 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  width: 400px;
+  padding: 0;
+  margin: 5% 0 5% 0;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 10%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+.card img {
+  width: 250px;
+  height: 240px;
+}
+.card .card__inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60px;
+}
+.card .card__button {
+  margin-bottom: 5%;
+}
+.card .card__price {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.card .card__price h5 {
+  width: 100%;
+}
+
+.input__color {
+  width: auto;
+}
+
+.eleccion {
+  padding-right: 5%;
+}
+.eleccion .eleccion__total {
+  display: flex;
+  align-items: center;
+}
+.eleccion .eleccion__cantidad {
+  display: flex;
+  align-items: center;
+}
+.eleccion .eleccion__color {
+  display: flex;
+  align-items: center;
+}
+.eleccion .eleccion__color p {
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 50%;
+  background-color: white;
+  height: 20px;
+  width: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

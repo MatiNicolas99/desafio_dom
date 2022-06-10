@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Card</title>
+</head>
+<body>
+    <div class="elements">
+        <div class="container">
+            <div class="card">
+                <img src="./assets/img/macbookpro14.jpg" alt="macbookpro14">
+                <div class="card__info">
+                    <h2>Laptop Macbook Pro 14</h2>
+                    <div class="card__inputs">
+                        <input class="input__amount" type="number" placeholder="cantidad" min="0">
+                        <input class="input__color " type="text" placeholder="color">
+                    </div>
+                    <div class="card__price">
+                        <h5>Precio:$2.199.000</h5>
+                    </div>
+                    <button class="card__button">Calcular Total</button>
+                </div>
+            </div>
+            <div class="eleccion">
+                <div class="eleccion__total">
+                    <h5>Total:$</h5>
+                    <p id="total"></p>
+                </div>
+                <div class="eleccion__cantidad">
+                    <h5>Cantidad:</h5>
+                    <p id="cantidad"></p>
+                </div>
+                <div class="eleccion__color">
+                    <h5>Color: </h5>
+                    <p id="color"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
